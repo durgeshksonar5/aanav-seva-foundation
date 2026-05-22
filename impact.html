@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Measurable social impact by Aanav Seva Foundation. Audited numbers, before/after metrics, beneficiary stories, and community testimonials in Pune and rural Maharashtra.">
+    <meta name="keywords" content="Social impact, NGO metrics, beneficiary stories, testimonials, before after metrics, Pune NGO, women health, child nutrition, bamboo planting">
+    <meta name="author" content="Aanav Seva Foundation">
+    <!-- Page Title -->
+    <title>Our Impact - Aanav Seva Foundation</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logos/favicon.png">
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- SlickNav Css -->
+    <link href="vendor/other-plugins/slicknav.min.css" rel="stylesheet">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <!-- Font Awesome Icon Css-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" media="screen">
+    <!-- Animated Css -->
+    <link href="vendor/other-plugins/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+    <link rel="stylesheet" href="vendor/other-plugins/magnific-popup.css">
+    <!-- Mouse Cursor Css File -->
+    <link rel="stylesheet" href="assets/css/mousecursor.css">
+    <!-- Main Custom Css -->
+    <link href="assets/css/custom.css" rel="stylesheet" media="screen">
+
+    <style>
+        .impact-counter-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+            border: 1px solid rgba(232, 99, 56, 0.08);
+            text-align: center;
+            transition: all 0.4s ease;
+            height: 100%;
+        }
+        .impact-counter-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 45px rgba(232, 99, 56, 0.08);
+            border-color: rgba(232, 99, 56, 0.2);
+        }
+        .impact-number {
+            font-size: 48px;
+            font-weight: 800;
+            color: #e86338;
+            margin-bottom: 10px;
+            line-height: 1;
+        }
+        .impact-label {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1e1e1e;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .impact-desc {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+        .metric-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.06);
+            background: #ffffff;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.01);
+        }
+        .metric-table th {
+            background: #fdfaf6;
+            color: #1e1e1e;
+            font-weight: 700;
+            padding: 20px 24px;
+            border-bottom: 2px solid rgba(232, 99, 56, 0.1);
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+        .metric-table td {
+            padding: 18px 24px;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            font-size: 15px;
+        }
+        .metric-table tr:last-child td {
+            border-bottom: none;
+        }
+        .metric-table tr:hover td {
+            background: rgba(232, 99, 56, 0.01);
+        }
+        .status-before {
+            background: #ffebeb;
+            color: #c0392b;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 700;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+        .status-after {
+            background: #e8f8f5;
+            color: #27ae60;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 700;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+        .story-card {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+            border: 1px solid rgba(0,0,0,0.04);
+            overflow: hidden;
+            transition: all 0.4s ease;
+            height: 100%;
+        }
+        .story-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(232, 99, 56, 0.06);
+            border-color: rgba(232, 99, 56, 0.15);
+        }
+        .story-img {
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+        .story-content {
+            padding: 30px;
+        }
+        .story-badge {
+            background: rgba(232, 99, 56, 0.1);
+            color: #e86338;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+        .testimonial-card-v2 {
+            background: #fdfaf6;
+            border-radius: 20px;
+            padding: 40px;
+            border: 1px solid rgba(0,0,0,0.03);
+            position: relative;
+        }
+        .testimonial-card-v2::before {
+            content: "\f10d";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            color: rgba(232, 99, 56, 0.1);
+            font-size: 60px;
+            line-height: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="assets/images/icons/loader.svg" alt=""></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Header Start -->
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="./">
+						<img src="assets/images/logos/logo.svg" alt="Logo">
+					</a>
+                    <!-- Logo End -->
+
+                    <!-- Main Menu Start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="#">Our Focus Areas</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="service/aditi.html">Women Health & Menstrual Hygiene</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="service/poshan-aahar.html">Nutrition & Child Welfare</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="service/kalpavruksha.html">Environment & Sustainability</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="service/nrutyotsava.html">Art, Culture & Heritage</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="service/community-empowerment.html">Community Empowerment</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item submenu"><a class="nav-link" href="#">Services</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="service/csr-partnerships.html">CSR Partnerships</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="projects.html">Flagship Projects</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="impact.html">Our Impact</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="compliance.html">Transparency & Compliance</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="image-gallery.html">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Contact Now Box Start -->
+                        <div class="contact-now-box">
+                            <div class="icon-box">
+                                <img src="assets/images/icons/icon-mail.svg" alt="">
+                            </div>
+                            <div class="contact-now-box-content">
+                                <p>get in touch !</p>
+                                <h3><a href="mailto:info@aanavfoundation.org">info@aanavfoundation.org</a></h3>
+                            </div>
+                        </div>
+                        <!-- Contact Now Box End -->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Page Header Start -->
+    <div class="page-header parallaxie">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Our</span> Impact</h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="./">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">our impact</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Audited Metrics Dashboard Start -->
+    <div class="impact-metrics-section" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title" style="margin-bottom: 60px;">
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Grassroots Progress Reports</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Verified Impact Indicators</h2>
+                        <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Providing detailed, traceable field outputs mapping direct community outreach across our primary intervention categories in Maharashtra.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Impact Counter Cards Row Start -->
+            <div class="row gy-4" style="margin-bottom: 60px;">
+                <!-- Card 1: Girls Reached -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="impact-counter-card">
+                        <div class="impact-number"><span class="counter">10000</span>+</div>
+                        <div class="impact-label">Women & Girls Supported</div>
+                        <p class="impact-desc">Provided with comprehensive menstrual health counseling, awareness kits, and access networks.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Pads distributed -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="impact-counter-card">
+                        <div class="impact-number"><span class="counter">50000</span>+</div>
+                        <div class="impact-label">Sanitary Napkins Distributed</div>
+                        <p class="impact-desc">High-quality, safe hygiene napkins distributed in municipal schools and remote hamlets.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Poshan Aahar meals -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="impact-counter-card">
+                        <div class="impact-number"><span class="counter">80</span>+</div>
+                        <div class="impact-label">Special Needs Children Supported</div>
+                        <p class="impact-desc">Daily fresh, custom nutritious lunches delivered straight through our Poshan Aahar program.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Bamboo Planted -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="impact-counter-card">
+                        <div class="impact-number"><span class="counter">5000</span>+</div>
+                        <div class="impact-label">Geo-tagged Bamboos Planted</div>
+                        <p class="impact-desc">Ecological bamboo saplings planted in the Kalpavruksha program to offset carbon emissions.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Impact Counter Cards Row End -->
+
+            <!-- Before & After Grid Start -->
+            <div class="row">
+                <div class="col-lg-12 wow fadeInUp">
+                    <h3 style="font-size: 26px; font-weight: 800; margin-bottom: 30px; color: #1e1e1e; text-align: center;">Before vs. After Intervention Metrics</h3>
+                    <div class="table-responsive">
+                        <table class="metric-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 35%;">Key Metric Evaluated</th>
+                                    <th style="width: 30%;">Situation Before Campaign</th>
+                                    <th style="width: 30%;">Verified Outcome Today</th>
+                                    <th style="width: 5%; text-align: center;">Verify</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>School attendance during menstruation</strong></td>
+                                    <td><span class="status-before">25% Absenteeism</span></td>
+                                    <td><span class="status-after">Under 2% Absences</span></td>
+                                    <td style="text-align: center; color: #e86338;"><i class="fa-solid fa-circle-check"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Sanitary access & disposal in rural schools</strong></td>
+                                    <td><span class="status-before">Zero incinerator grids</span></td>
+                                    <td><span class="status-after">100% active incinerator grids</span></td>
+                                    <td style="text-align: center; color: #e86338;"><i class="fa-solid fa-circle-check"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Daily nutrition standards for special children</strong></td>
+                                    <td><span class="status-before">Deficient daily protein</span></td>
+                                    <td><span class="status-after">Optimal medical growth curves</span></td>
+                                    <td style="text-align: center; color: #e86338;"><i class="fa-solid fa-circle-check"></i></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ecological bamboo survival indices</strong></td>
+                                    <td><span class="status-before">Under 40% survival rate</span></td>
+                                    <td><span class="status-after">92% Geo-tagged survival rate</span></td>
+                                    <td style="text-align: center; color: #e86338;"><i class="fa-solid fa-circle-check"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Before & After Grid End -->
+        </div>
+    </div>
+    <!-- Audited Metrics Dashboard End -->
+
+    <!-- Beneficiary Stories Section Start -->
+    <div class="beneficiary-stories-section" style="padding: 100px 0; background: #fdfaf6;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <div class="section-title" style="margin-bottom: 60px;">
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Real Stories, Real Lives</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Beneficiary Case Studies</h2>
+                        <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Discover how community-focused interventions have transformed raw conditions into environments of support and growth.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4">
+                <!-- Story 1: Aditi -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="story-card">
+                        <div class="story-img" style="background-image: url('assets/images/about-img-2.jpg');"></div>
+                        <div class="story-content">
+                            <span class="story-badge">Women Health Success</span>
+                            <h3 style="font-size: 22px; font-weight: 800; margin-bottom: 15px; color: #1e1e1e;">Empowering Young Girls: Aditi's Story</h3>
+                            <p style="color: #5a5a5a; font-size: 15px; line-height: 1.7; margin-bottom: 0;">"Before the Aanav Seva Foundation launched its Menstrual Hygiene Management camps in our school, missing 4-5 days of classes every month was normal for me. I felt embarrassed to ask questions. Today, with the Aditi program, we receive high-quality sanitary napkins and open scientific guidance. I haven't missed a single day of school this semester!" <br><strong style="color: #1e1e1e; display: block; margin-top: 15px;">— Aditi (Age 14, Rural Pune School Student)</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story 2: Special Nutrition child -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="story-card">
+                        <div class="story-img" style="background-image: url('assets/images/about-img-1.jpg');"></div>
+                        <div class="story-content">
+                            <span class="story-badge">Poshan Aahar Success</span>
+                            <h3 style="font-size: 22px; font-weight: 800; margin-bottom: 15px; color: #1e1e1e;">Fostering Healthy Growth: Meera's Journey</h3>
+                            <p style="color: #5a5a5a; font-size: 15px; line-height: 1.7; margin-bottom: 0;">"As a single mother working as a domestic helper, ensuring proper daily nutrition for my special-needs child was extremely difficult. The Poshan Aahar initiative by the Aanav Seva Foundation has changed everything. The fresh, custom-cooked hygienic lunch box delivered to him every afternoon gives me deep peace of mind. The doctors verified that his weight and focus have improved dramatically." <br><strong style="color: #1e1e1e; display: block; margin-top: 15px;">— Smt. Meera (Mother of special-needs child)</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Beneficiary Stories Section End -->
+
+    <!-- Community Testimonials Section Start -->
+    <div class="community-testimonials-section" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <div class="section-title" style="margin-bottom: 60px;">
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Field Reviews</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Community Endorsements</h2>
+                        <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Read direct reviews and testimonials from local governance figures and health specialists on our work.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4">
+                <!-- Testimonial 1 -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-card-v2">
+                        <p style="font-size: 16px; color: #5a5a5a; line-height: 1.8; font-style: italic; margin-bottom: 25px;">"Aanav Seva Foundation stands out as a highly execution-oriented and trusted grassroots partner in Khed Taluka. Their coordination with local gram panchayats, school administrations, and medical professionals is exceptional. Their field workers make sure every sanitary napkin is accounted for, and every incinerator is functioning."</p>
+                        <h4 style="font-size: 18px; font-weight: 700; color: #1e1e1e; margin-bottom: 5px;">Smt. Savita Patil</h4>
+                        <p style="color: #e86338; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0;">Gram Panchayat Sarpanch, Pune District</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testimonial-card-v2">
+                        <p style="font-size: 16px; color: #5a5a5a; line-height: 1.8; font-style: italic; margin-bottom: 25px;">"The clinical benefits of the Aditi camps and school workshops are directly visible in my medical data. In villages where Aanav Seva Foundation runs menstrual awareness programs, there is a massive 80% drop in adolescent gynecological infections. Their insistence on quality and clean water awareness is highly commendable."</p>
+                        <h4 style="font-size: 18px; font-weight: 700; color: #1e1e1e; margin-bottom: 5px;">Dr. Manoj Shah</h4>
+                        <p style="color: #e86338; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0;">Community Medical Health Officer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Community Testimonials Section End -->
+
+    <!-- Call to Action Section Start -->
+    <div class="impact-cta-section" style="padding: 100px 0; background: #e86338; color: #ffffff; text-align: center;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 wow fadeInUp">
+                    <h2 style="font-size: 38px; font-weight: 800; color: #ffffff; margin-bottom: 20px;">Support Our Grassroots Actions</h2>
+                    <p style="font-size: 18px; color: rgba(255,255,255,0.9); line-height: 1.8; margin-bottom: 35px; max-width: 650px; margin-left: auto; margin-right: auto;">Work with us to multiply social value, scale active medical or nutritional programs, and deliver verified changes directly to those who need it most.</p>
+                    <a href="contact.html" class="btn-default" style="background: #ffffff; color: #e86338; border: none;">request audited impact papers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Call to Action Section End -->
+
+    <!-- Main Footer Section Start -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Main Footer Box Start -->
+                    <div class="main-footer-box">
+                        <!-- Footer About Start -->
+                        <div class="footer-about">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+                                <img src="assets/images/logos/footer-logo.svg" alt="">
+                            </div>
+                            <!-- Footer Logo End -->
+
+                            <!-- Footer Contact Detail Start -->
+                            <div class="footer-contact-detail">
+                                <div class="footer-contact-item">
+                                    <p>Registered Office (Pune)</p>
+                                    <h3><a href="contact.html">Sadashiv Peth, Pune</a></h3>
+                                </div>
+
+                                <div class="footer-contact-item">
+                                    <p>Official Email</p>
+                                    <h3><a href="mailto:info@aanavfoundation.org">info@aanavfoundation.org</a></h3>
+                                </div>
+                            </div>
+                            <!-- Footer Contact Detail End -->
+
+                            <!-- Footer Social Links Start -->
+                            <div class="footer-social-links">
+                                <h3>Follow on</h3>
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Social Links End -->
+                        </div>
+                        <!-- Footer About End -->
+
+                        <!-- Footer Links Box Start -->
+                        <div class="footer-links-box">
+                            <!-- Newsletter Form Start -->
+                            <div class="newsletter-form">
+                                <form id="newsletterForm" action="#" method="POST">
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" id="mail" placeholder="Enter Your Email" required="">
+                                        <button type="submit" class="newsletter-btn"><i class="fa-regular fa-paper-plane"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Newsletter Form End -->
+
+                            <!-- Footer Links Start -->
+                            <div class="footer-links">
+                                <h3>Quick link</h3>
+                                <ul>
+                                    <li><a href="index.html">home</a></li>
+                                    <li><a href="about.html">about us</a></li>
+                                    <li><a href="service.html">services</a></li>
+                                    <li><a href="contact.html">contact us</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Links End -->
+
+                            <!-- Footer Links Start -->
+                            <div class="footer-links footer-service-links">
+                                <h3>services</h3>
+                                <ul>
+                                    <li><a href="service/poshan-aahar.html">Poshan Aahar (Nutrition)</a></li>
+                                    <li><a href="service/aditi.html">Aditi Program (Health)</a></li>
+                                    <li><a href="service/kalpavruksha.html">Kalpavruksha (Environment)</a></li>
+                                    <li><a href="service/nrutyotsava.html">Nrutyotsava (Art & Culture)</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Links End -->
+
+                            <!-- Footer Links Start -->
+                            <div class="footer-links">
+                                <h3>Compliance</h3>
+                                <ul>
+                                    <li><a href="#">CIN: U74999PN2018NPL178652</a></li>
+                                    <li><a href="#">PAN: AARCA2837M</a></li>
+                                    <li><a href="#">IT Exemption: 12AA & 80G</a></li>
+                                    <li><a href="#">NGO Status: Registered</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Links End -->
+                        </div>
+                        <!-- Footer Links Box End -->
+                    </div>
+                    <!-- Main Footer Box End -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Copyright Start -->
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Copyright Text Start -->
+                        <div class="copyright-text">
+                            <p>Copyright © 2025 All Rights Reserved.</p>
+                        </div>
+                        <!-- Copyright Text End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright End -->
+    </footer>
+    <!-- Main Footer Section End -->
+
+    <!-- Jquery Library File -->
+    <script src="vendor/other-plugins/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="vendor/other-plugins/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="vendor/other-plugins/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="vendor/other-plugins/jquery.waypoints.min.js"></script>
+    <script src="vendor/other-plugins/jquery.counterup.min.js"></script>
+    <!-- Isotop js file -->
+    <script src="vendor/other-plugins/isotope.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="vendor/other-plugins/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="vendor/other-plugins/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="vendor/other-plugins/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="vendor/gsap/gsap.min.js"></script>
+    <script src="assets/js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="vendor/gsap/SplitText.js"></script>
+    <script src="vendor/gsap/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="vendor/other-plugins/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="vendor/other-plugins/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="assets/js/function.js"></script>
+</body>
+
+</html>

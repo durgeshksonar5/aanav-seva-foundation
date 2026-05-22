@@ -785,12 +785,12 @@
     <!-- Our Team Section End -->
 
     <!-- Aims, Objectives & Guiding Beliefs Section Start -->
-    <div class="aims-principles-section" style="padding: 100px 0; background: #F5F7F8;">
+    <div class="aims-principles-section" style="padding: 100px 0; background: #fdfaf6;">
         <div class="container">
             <div class="row section-row no-gutters">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h3 class="wow fadeInUp" style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Framework for Impact</h3>
+                        <h3 class="wow fadeInUp" style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Framework for Impact</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Our Aims, Objectives & Guiding Beliefs</h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px; margin: 0 auto 50px auto;">Aanav Seva Foundation operates under a strict, community-first framework built to deliver maximum social impact, transparency, and grassroots sustainability.</p>
                     </div>
@@ -800,46 +800,46 @@
             <div class="row gy-4">
                 <!-- Column 1: Aims & Objectives -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div style="background: #ffffff; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); border: 1px solid rgba(22, 166, 232, 0.1); height: 100%;">
+                    <div style="background: #ffffff; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); border: 1px solid rgba(232, 99, 56, 0.1); height: 100%;">
                         <div style="display: flex; align-items: center; margin-bottom: 25px;">
-                            <div style="width: 50px; height: 50px; background: rgba(22, 166, 232, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
-                                <i class="fa-solid fa-bullseye" style="color: #16A6E8; font-size: 20px;"></i>
+                            <div style="width: 50px; height: 50px; background: rgba(232, 99, 56, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                <i class="fa-solid fa-bullseye" style="color: #e86338; font-size: 20px;"></i>
                             </div>
                             <h3 style="margin: 0; font-size: 24px; font-weight: 700; color: #1e1e1e;">Aims & Objectives</h3>
                         </div>
                         
-                        <h4 style="font-size: 18px; font-weight: 600; color: #16A6E8; margin-bottom: 15px;">Aims:</h4>
+                        <h4 style="font-size: 18px; font-weight: 600; color: #e86338; margin-bottom: 15px;">Aims:</h4>
                         <ul style="list-style: none; padding-left: 0; margin-bottom: 30px;">
                             <li style="position: relative; padding-left: 25px; margin-bottom: 12px; font-size: 15px; color: #5e5e5e;">
-                                <i class="fa-solid fa-circle-check" style="position: absolute; left: 0; top: 3px; color: #16A6E8; font-size: 14px;"></i>
+                                <i class="fa-solid fa-circle-check" style="position: absolute; left: 0; top: 3px; color: #e86338; font-size: 14px;"></i>
                                 Uplift underprivileged communities via access to basic education, health, nutrition, and hygiene.
                             </li>
                             <li style="position: relative; padding-left: 25px; margin-bottom: 12px; font-size: 15px; color: #5e5e5e;">
-                                <i class="fa-solid fa-circle-check" style="position: absolute; left: 0; top: 3px; color: #16A6E8; font-size: 14px;"></i>
+                                <i class="fa-solid fa-circle-check" style="position: absolute; left: 0; top: 3px; color: #e86338; font-size: 14px;"></i>
                                 Create sustainable models of environmental stewardship and green urban practices.
                             </li>
                             <li style="position: relative; padding-left: 25px; margin-bottom: 12px; font-size: 15px; color: #5e5e5e;">
-                                <i class="fa-solid fa-circle-check" style="position: absolute; left: 0; top: 3px; color: #16A6E8; font-size: 14px;"></i>
+                                <i class="fa-solid fa-circle-check" style="position: absolute; left: 0; top: 3px; color: #e86338; font-size: 14px;"></i>
                                 Promote and protect India’s rich cultural and classical artistic dance heritage.
                             </li>
                         </ul>
                         
-                        <h4 style="font-size: 18px; font-weight: 600; color: #16A6E8; margin-bottom: 15px;">Core Objectives:</h4>
+                        <h4 style="font-size: 18px; font-weight: 600; color: #e86338; margin-bottom: 15px;">Core Objectives:</h4>
                         <ul style="list-style: none; padding-left: 0;">
                             <li style="position: relative; padding-left: 25px; margin-bottom: 10px; font-size: 14px; color: #5e5e5e;">
-                                <span style="position: absolute; left: 0; color: #16A6E8; font-weight: 700;">1.</span> Conduct healthcare check-up and menstrual hygiene awareness programs for rural women and children.
+                                <span style="position: absolute; left: 0; color: #e86338; font-weight: 700;">1.</span> Conduct healthcare check-up and menstrual hygiene awareness programs for rural women and children.
                             </li>
                             <li style="position: relative; padding-left: 25px; margin-bottom: 10px; font-size: 14px; color: #5e5e5e;">
-                                <span style="position: absolute; left: 0; color: #16A6E8; font-weight: 700;">2.</span> Provide free or subsidized sanitary napkins and nutritional meals to the underserved.
+                                <span style="position: absolute; left: 0; color: #e86338; font-weight: 700;">2.</span> Provide free or subsidized sanitary napkins and nutritional meals to the underserved.
                             </li>
                             <li style="position: relative; padding-left: 25px; margin-bottom: 10px; font-size: 14px; color: #5e5e5e;">
-                                <span style="position: absolute; left: 0; color: #16A6E8; font-weight: 700;">3.</span> Plant bamboo tree saplings for long-term carbon reduction and biodiversity zones.
+                                <span style="position: absolute; left: 0; color: #e86338; font-weight: 700;">3.</span> Plant bamboo tree saplings for long-term carbon reduction and biodiversity zones.
                             </li>
                             <li style="position: relative; padding-left: 25px; margin-bottom: 10px; font-size: 14px; color: #5e5e5e;">
-                                <span style="position: absolute; left: 0; color: #16A6E8; font-weight: 700;">4.</span> Organize large-scale dance festivals (Nrutyotsava) to preserve Indian classical arts.
+                                <span style="position: absolute; left: 0; color: #e86338; font-weight: 700;">4.</span> Organize large-scale dance festivals (Nrutyotsava) to preserve Indian classical arts.
                             </li>
                             <li style="position: relative; padding-left: 25px; margin-bottom: 10px; font-size: 14px; color: #5e5e5e;">
-                                <span style="position: absolute; left: 0; color: #16A6E8; font-weight: 700;">5.</span> Partner with government, corporate sponsors, and civil bodies to scale social impact.
+                                <span style="position: absolute; left: 0; color: #e86338; font-weight: 700;">5.</span> Partner with government, corporate sponsors, and civil bodies to scale social impact.
                             </li>
                         </ul>
                     </div>
@@ -847,10 +847,10 @@
                 
                 <!-- Column 2: Guiding Principles & Beliefs -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <div style="background: #ffffff; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); border: 1px solid rgba(22, 166, 232, 0.1); height: 100%;">
+                    <div style="background: #ffffff; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); border: 1px solid rgba(232, 99, 56, 0.1); height: 100%;">
                         <div style="display: flex; align-items: center; margin-bottom: 25px;">
-                            <div style="width: 50px; height: 50px; background: rgba(22, 166, 232, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
-                                <i class="fa-solid fa-compass" style="color: #16A6E8; font-size: 20px;"></i>
+                            <div style="width: 50px; height: 50px; background: rgba(232, 99, 56, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                                <i class="fa-solid fa-compass" style="color: #e86338; font-size: 20px;"></i>
                             </div>
                             <h3 style="margin: 0; font-size: 24px; font-weight: 700; color: #1e1e1e;">Guiding Beliefs</h3>
                         </div>
@@ -1202,7 +1202,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="section-title">
-                        <h3 class="wow fadeInUp" style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Transparency & Compliance</h3>
+                        <h3 class="wow fadeInUp" style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Transparency & Compliance</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Statutory Registrations & Legal Standing</h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="margin-top: 15px; color: #5a5a5a; line-height: 1.8;">Aanav Seva Foundation is a community-focused Section 8 Non-Profit organization in Pune, Maharashtra. We maintain absolute compliance standards to foster trusted partnerships with our corporate donors and individual supporters.</p>
                         <p class="wow fadeInUp" data-wow-delay="0.3s" style="margin-top: 15px; color: #5a5a5a; line-height: 1.8;">Our financial filings and operations align with Section 135 MCA CSR standards. We hold exemptions under Income Tax Sections 12AA & 80G, offering maximum security and deductible benefits for all contributions.</p>
@@ -1212,7 +1212,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="wow fadeInUp" data-wow-delay="0.2s" style="background: #F5F7F8; padding: 40px; border-radius: 20px; border: 1px solid rgba(22, 166, 232, 0.08);">
+                    <div class="wow fadeInUp" data-wow-delay="0.2s" style="background: #fdfaf6; padding: 40px; border-radius: 20px; border: 1px solid rgba(232, 99, 56, 0.08);">
                         <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
                             <li style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid rgba(0,0,0,0.05);">
                                 <span style="font-weight: 700; color: #1e1e1e;">Corporate Identification (CIN)</span>

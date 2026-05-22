@@ -39,14 +39,14 @@
             background: #ffffff;
             border-radius: 24px;
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.04);
-            border: 1px solid rgba(22, 166, 232, 0.08);
+            border: 1px solid rgba(232, 99, 56, 0.08);
             overflow: hidden;
             transition: all 0.4s ease;
             margin-bottom: 50px;
         }
         .case-study-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 50px rgba(22, 166, 232, 0.08);
+            box-shadow: 0 20px 50px rgba(232, 99, 56, 0.08);
         }
         .case-study-image {
             position: relative;
@@ -58,7 +58,7 @@
             position: absolute;
             top: 25px;
             left: 25px;
-            background: #16A6E8;
+            background: #e86338;
             color: #ffffff;
             padding: 8px 18px;
             border-radius: 50px;
@@ -81,7 +81,7 @@
         .meta-item h4 {
             font-size: 12px;
             text-transform: uppercase;
-            color: #16A6E8;
+            color: #e86338;
             letter-spacing: 1px;
             margin-bottom: 5px;
             font-weight: 700;
@@ -99,9 +99,9 @@
             margin-top: 20px;
         }
         .metric-pill {
-            background: rgba(22, 166, 232, 0.06);
-            color: #16A6E8;
-            border: 1px solid rgba(22, 166, 232, 0.15);
+            background: rgba(232, 99, 56, 0.06);
+            color: #e86338;
+            border: 1px solid rgba(232, 99, 56, 0.15);
             padding: 8px 16px;
             border-radius: 50px;
             font-size: 14px;
@@ -123,19 +123,19 @@
         }
         .project-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 15px 35px rgba(22, 166, 232, 0.05);
-            border-color: rgba(22, 166, 232, 0.15);
+            box-shadow: 0 15px 35px rgba(232, 99, 56, 0.05);
+            border-color: rgba(232, 99, 56, 0.15);
         }
         .project-icon {
             width: 55px;
             height: 55px;
-            background: rgba(22, 166, 232, 0.08);
+            background: rgba(232, 99, 56, 0.08);
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 22px;
-            color: #16A6E8;
+            color: #e86338;
             font-size: 24px;
         }
     </style>
@@ -239,7 +239,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-title" style="margin-bottom: 60px;">
-                        <h3 style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Proven Execution Capability</h3>
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Proven Execution Capability</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Flagship Case Study</h2>
                         <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Demonstrating scalable, corporate-backed social operations with highly structured monitoring, verifiability, and measurable impact indicators.</p>
                     </div>
@@ -300,12 +300,12 @@
     <!-- Case Study Section End -->
 
     <!-- More Projects Section Start -->
-    <div class="more-projects-section" style="padding: 60px 0 100px 0; background: #F5F7F8;">
+    <div class="more-projects-section" style="padding: 60px 0 100px 0; background: #fdfaf6;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-title" style="margin-bottom: 60px;">
-                        <h3 style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Ongoing Operations</h3>
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Ongoing Operations</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Other Proof of Capability</h2>
                         <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Leveraging our experienced grassroots network to execute highly structured, transparent corporate social programs.</p>
                     </div>
@@ -321,7 +321,7 @@
                         </div>
                         <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px; color: #1e1e1e;">Poshan Aahar Nutrition Support</h3>
                         <p style="font-size: 15px; color: #5a5a5a; line-height: 1.7; margin-bottom: 20px;">Daily fresh, nutritious lunch boxes delivered directly to special-needs and needy children, verified through digital attendance tracking and parental dashboards.</p>
-                        <a href="service/poshan-aahar.html" style="color: #16A6E8; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;">View Program Details <i class="fa-solid fa-arrow-right" style="font-size: 12px; margin-left: 5px;"></i></a>
+                        <a href="service/poshan-aahar.html" style="color: #e86338; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;">View Program Details <i class="fa-solid fa-arrow-right" style="font-size: 12px; margin-left: 5px;"></i></a>
                     </div>
                 </div>
 
@@ -333,7 +333,7 @@
                         </div>
                         <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px; color: #1e1e1e;">Kalpavruksha Bamboo Plantation</h3>
                         <p style="font-size: 15px; color: #5a5a5a; line-height: 1.7; margin-bottom: 20px;">Structured ecological carbon off-setting program featuring geo-tagged bamboo sapling plantation, digital growth tracking, and local farmer revenue sharing.</p>
-                        <a href="service/kalpavruksha.html" style="color: #16A6E8; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;">View Program Details <i class="fa-solid fa-arrow-right" style="font-size: 12px; margin-left: 5px;"></i></a>
+                        <a href="service/kalpavruksha.html" style="color: #e86338; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;">View Program Details <i class="fa-solid fa-arrow-right" style="font-size: 12px; margin-left: 5px;"></i></a>
                     </div>
                 </div>
 
@@ -345,7 +345,7 @@
                         </div>
                         <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px; color: #1e1e1e;">Nrutyotsava Classical Arts Preservation</h3>
                         <p style="font-size: 15px; color: #5a5a5a; line-height: 1.7; margin-bottom: 20px;">Dedicated program structure supporting traditional artists, sponsoring classical dance & music festivals, and bringing heritage arts to underprivileged children.</p>
-                        <a href="service/nrutyotsava.html" style="color: #16A6E8; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;">View Program Details <i class="fa-solid fa-arrow-right" style="font-size: 12px; margin-left: 5px;"></i></a>
+                        <a href="service/nrutyotsava.html" style="color: #e86338; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;">View Program Details <i class="fa-solid fa-arrow-right" style="font-size: 12px; margin-left: 5px;"></i></a>
                     </div>
                 </div>
             </div>
@@ -354,13 +354,13 @@
     <!-- More Projects Section End -->
 
     <!-- Call to Action Section Start -->
-    <div class="projects-cta-section" style="padding: 100px 0; background: #16A6E8; color: #ffffff; text-align: center;">
+    <div class="projects-cta-section" style="padding: 100px 0; background: #e86338; color: #ffffff; text-align: center;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 wow fadeInUp">
                     <h2 style="font-size: 38px; font-weight: 800; color: #ffffff; margin-bottom: 20px;">Partner for Measurable Social Progress</h2>
                     <p style="font-size: 18px; color: rgba(255,255,255,0.9); line-height: 1.8; margin-bottom: 35px; max-width: 650px; margin-left: auto; margin-right: auto;">Our execution systems, digital audits, and strict compliance guidelines ensure that every CSR program we manage is highly visible, secure, and impactful.</p>
-                    <a href="contact.html" class="btn-default" style="background: #ffffff; color: #16A6E8; border: none;">discuss corporate partnerships</a>
+                    <a href="contact.html" class="btn-default" style="background: #ffffff; color: #e86338; border: none;">discuss corporate partnerships</a>
                 </div>
             </div>
         </div>

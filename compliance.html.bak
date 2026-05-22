@@ -41,7 +41,7 @@
             border-radius: 20px;
             padding: 35px 30px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.03);
-            border: 1px solid rgba(22, 166, 232, 0.08);
+            border: 1px solid rgba(232, 99, 56, 0.08);
             transition: all 0.4s ease;
             height: 100%;
             position: relative;
@@ -54,14 +54,14 @@
             left: 0;
             width: 4px;
             height: 100%;
-            background: #16A6E8;
+            background: #e86338;
             opacity: 0;
             transition: all 0.4s ease;
         }
         .credential-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 15px 40px rgba(22, 166, 232, 0.08);
-            border-color: rgba(22, 166, 232, 0.2);
+            box-shadow: 0 15px 40px rgba(232, 99, 56, 0.08);
+            border-color: rgba(232, 99, 56, 0.2);
         }
         .credential-card:hover::before {
             opacity: 1;
@@ -69,7 +69,7 @@
         .cred-icon {
             width: 55px;
             height: 55px;
-            background: rgba(22, 166, 232, 0.1);
+            background: rgba(232, 99, 56, 0.1);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -78,7 +78,7 @@
             transition: all 0.3s ease;
         }
         .credential-card:hover .cred-icon {
-            background: #16A6E8;
+            background: #e86338;
         }
         .credential-card:hover .cred-icon i {
             color: #ffffff !important;
@@ -86,7 +86,7 @@
         .download-btn {
             display: inline-flex;
             align-items: center;
-            color: #16A6E8;
+            color: #e86338;
             font-weight: 600;
             text-transform: uppercase;
             font-size: 13px;
@@ -120,11 +120,11 @@
             background: #ffffff;
         }
         .compliance-table th {
-            background: #F5F7F8;
+            background: #fdfaf6;
             color: #1e1e1e;
             font-weight: 700;
             padding: 18px 24px;
-            border-bottom: 2px solid rgba(22, 166, 232, 0.1);
+            border-bottom: 2px solid rgba(232, 99, 56, 0.1);
             text-transform: uppercase;
             font-size: 14px;
             letter-spacing: 1px;
@@ -139,11 +139,11 @@
             border-bottom: none;
         }
         .compliance-table tr:hover td {
-            background: rgba(22, 166, 232, 0.02);
+            background: rgba(232, 99, 56, 0.02);
             color: #1e1e1e;
         }
         .director-card {
-            background: #F5F7F8;
+            background: #fdfaf6;
             border-radius: 20px;
             padding: 30px;
             text-align: center;
@@ -153,7 +153,7 @@
         .director-card:hover {
             background: #ffffff;
             box-shadow: 0 10px 30px rgba(0,0,0,0.04);
-            border-color: rgba(22, 166, 232, 0.1);
+            border-color: rgba(232, 99, 56, 0.1);
         }
     </style>
 </head>
@@ -256,7 +256,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 wow fadeInUp">
                     <div class="section-title" style="margin-bottom: 30px;">
-                        <h3 style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Organizational Legitimacy</h3>
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Organizational Legitimacy</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin-bottom: 20px;">Rigorous Standards, Complete Compliance</h2>
                         <p style="font-size: 16px; line-height: 1.8; color: #5a5a5a;">Established in 2018, Aanav Seva Foundation is a community-focused, legally registered Section 8 Non-Profit Organization headquartered in Pune, Maharashtra. We operate under strict corporate compliance frameworks, ensuring 100% financial transparency and strict alignment with Ministry of Corporate Affairs Section 135 rules.</p>
                         <p style="font-size: 16px; line-height: 1.8; color: #5a5a5a; margin-top: 15px;">Whether collaborating with individual philanthropists or executing flagship CSR campaigns with partners like the JSW Foundation, we safeguard corporate and private funds through meticulous utilization tracking and open legal disclosure.</p>
@@ -310,12 +310,12 @@
     <!-- Legal Overview & Credentials Section End -->
 
     <!-- Board of Governance Section Start -->
-    <div class="board-governance-section" style="padding: 100px 0; background: #F5F7F8;">
+    <div class="board-governance-section" style="padding: 100px 0; background: #fdfaf6;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-title" style="margin-bottom: 60px;">
-                        <h3 style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Governance & Leadership</h3>
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Governance & Leadership</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Dedicated Board of Directors</h2>
                         <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Our organization operates under the strategic oversight and governance of a highly experienced Board of Directors committed to legal compliance, financial integrity, and sustainable impact.</p>
                     </div>
@@ -325,33 +325,33 @@
             <div class="row justify-content-center gy-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="director-card">
-                        <div style="width: 80px; height: 80px; background: rgba(22, 166, 232, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto;">
-                            <i class="fa-solid fa-user-tie" style="color: #16A6E8; font-size: 32px;"></i>
+                        <div style="width: 80px; height: 80px; background: rgba(232, 99, 56, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto;">
+                            <i class="fa-solid fa-user-tie" style="color: #e86338; font-size: 32px;"></i>
                         </div>
                         <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 5px; color: #1e1e1e;">Smt. Neela A. Charegaonkar</h3>
-                        <p style="color: #16A6E8; font-weight: 600; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; margin-bottom: 12px;">Chairperson</p>
+                        <p style="color: #e86338; font-weight: 600; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; margin-bottom: 12px;">Chairperson</p>
                         <p style="font-size: 14px; color: #6a6a6a; margin-bottom: 0;">Steers organization philosophy, community enrichment values, and strategic governance.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="director-card">
-                        <div style="width: 80px; height: 80px; background: rgba(22, 166, 232, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto;">
-                            <i class="fa-solid fa-user-tie" style="color: #16A6E8; font-size: 32px;"></i>
+                        <div style="width: 80px; height: 80px; background: rgba(232, 99, 56, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto;">
+                            <i class="fa-solid fa-user-tie" style="color: #e86338; font-size: 32px;"></i>
                         </div>
                         <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 5px; color: #1e1e1e;">Mr. Rahul S. Ganu</h3>
-                        <p style="color: #16A6E8; font-weight: 600; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; margin-bottom: 12px;">Director</p>
+                        <p style="color: #e86338; font-weight: 600; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; margin-bottom: 12px;">Director</p>
                         <p style="font-size: 14px; color: #6a6a6a; margin-bottom: 0;">Oversees statutory filings, operational efficiency, and partnership compliance structures.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="director-card">
-                        <div style="width: 80px; height: 80px; background: rgba(22, 166, 232, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto;">
-                            <i class="fa-solid fa-user-tie" style="color: #16A6E8; font-size: 32px;"></i>
+                        <div style="width: 80px; height: 80px; background: rgba(232, 99, 56, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto;">
+                            <i class="fa-solid fa-user-tie" style="color: #e86338; font-size: 32px;"></i>
                         </div>
                         <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 5px; color: #1e1e1e;">Mr. Santosh R. Patil</h3>
-                        <p style="color: #16A6E8; font-weight: 600; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; margin-bottom: 12px;">Director</p>
+                        <p style="color: #e86338; font-weight: 600; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; margin-bottom: 12px;">Director</p>
                         <p style="font-size: 14px; color: #6a6a6a; margin-bottom: 0;">Directs field execution models, grassroots team engagement, and program monitoring.</p>
                     </div>
                 </div>
@@ -366,7 +366,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-title" style="margin-bottom: 60px;">
-                        <h3 style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Verification Hub</h3>
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Verification Hub</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Registrations & Compliance Documents</h2>
                         <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">We maintain verified copies of our statutory certificates and financial reports, available to all corporate sponsors, auditing institutions, and CSR partners upon formal verification.</p>
                     </div>
@@ -378,7 +378,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="credential-card">
                         <div class="cred-icon">
-                            <i class="fa-solid fa-certificate" style="color: #16A6E8; font-size: 24px;"></i>
+                            <i class="fa-solid fa-certificate" style="color: #e86338; font-size: 24px;"></i>
                         </div>
                         <h3 style="font-size: 19px; font-weight: 700; margin-bottom: 10px; color: #1e1e1e;">Certificate of Incorporation</h3>
                         <p style="font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 15px;">Official registration certificate issued by the Ministry of Corporate Affairs, Gov of India, establishing Section 8 legitimacy.</p>
@@ -390,7 +390,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="credential-card">
                         <div class="cred-icon">
-                            <i class="fa-solid fa-file-invoice" style="color: #16A6E8; font-size: 24px;"></i>
+                            <i class="fa-solid fa-file-invoice" style="color: #e86338; font-size: 24px;"></i>
                         </div>
                         <h3 style="font-size: 19px; font-weight: 700; margin-bottom: 10px; color: #1e1e1e;">Income Tax 12A Status</h3>
                         <p style="font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 15px;">Statutory tax-exemption approval granted by the Income Tax Department u/s 12AA, ensuring absolute tax compliance.</p>
@@ -402,7 +402,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="credential-card">
                         <div class="cred-icon">
-                            <i class="fa-solid fa-shield-halved" style="color: #16A6E8; font-size: 24px;"></i>
+                            <i class="fa-solid fa-shield-halved" style="color: #e86338; font-size: 24px;"></i>
                         </div>
                         <h3 style="font-size: 19px; font-weight: 700; margin-bottom: 10px; color: #1e1e1e;">Income Tax 80G Certificate</h3>
                         <p style="font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 15px;">Enables all domestic corporate and private donors to deduct 50% of contributions under Income Tax guidelines.</p>
@@ -414,7 +414,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="credential-card">
                         <div class="cred-icon">
-                            <i class="fa-solid fa-handshake-angle" style="color: #16A6E8; font-size: 24px;"></i>
+                            <i class="fa-solid fa-handshake-angle" style="color: #e86338; font-size: 24px;"></i>
                         </div>
                         <h3 style="font-size: 19px; font-weight: 700; margin-bottom: 10px; color: #1e1e1e;">MCA CSR-1 Registration</h3>
                         <p style="font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 15px;">Mandatory approval certificate by the MCA, enabling us to act as official implementation partner for CSR projects.</p>
@@ -426,7 +426,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="credential-card">
                         <div class="cred-icon">
-                            <i class="fa-solid fa-chart-line" style="color: #16A6E8; font-size: 24px;"></i>
+                            <i class="fa-solid fa-chart-line" style="color: #e86338; font-size: 24px;"></i>
                         </div>
                         <h3 style="font-size: 19px; font-weight: 700; margin-bottom: 10px; color: #1e1e1e;">Annual Financial Audits</h3>
                         <p style="font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 15px;">Complete, audited balance sheets and fund utilization reports demonstrating zero discrepancies and clean balance sheets.</p>
@@ -438,7 +438,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="credential-card">
                         <div class="cred-icon">
-                            <i class="fa-solid fa-location-dot" style="color: #16A6E8; font-size: 24px;"></i>
+                            <i class="fa-solid fa-location-dot" style="color: #e86338; font-size: 24px;"></i>
                         </div>
                         <h3 style="font-size: 19px; font-weight: 700; margin-bottom: 10px; color: #1e1e1e;">PAN & Address Filings</h3>
                         <p style="font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 15px;">Official Income Tax PAN copy alongside verified municipal utility details mapping registered office addresses in Sadashiv Peth.</p>
@@ -451,13 +451,13 @@
     <!-- Verification & Documents Section End -->
 
     <!-- CSR Partnership Call to Action Start -->
-    <div class="csr-cta-section" style="padding: 100px 0; background: #16A6E8; color: #ffffff; position: relative; overflow: hidden;">
+    <div class="csr-cta-section" style="padding: 100px 0; background: #e86338; color: #ffffff; position: relative; overflow: hidden;">
         <div class="container text-center">
             <div class="row justify-content-center">
                 <div class="col-lg-8 wow fadeInUp">
                     <h2 style="font-size: 38px; font-weight: 800; color: #ffffff; margin-bottom: 20px;">Ready for Transparent Social Impact?</h2>
                     <p style="font-size: 18px; color: rgba(255,255,255,0.9); line-height: 1.8; margin-bottom: 35px; max-width: 650px; margin-left: auto; margin-right: auto;">Our compliance framework guarantees corporate sponsors peace of mind and 100% legal security. Connect with our Board members today for active auditing or bespoke ESG projects.</p>
-                    <a href="contact.html" class="btn-default" style="background: #ffffff; color: #16A6E8; border: none;">Request Verified Documents</a>
+                    <a href="contact.html" class="btn-default" style="background: #ffffff; color: #e86338; border: none;">Request Verified Documents</a>
                 </div>
             </div>
         </div>

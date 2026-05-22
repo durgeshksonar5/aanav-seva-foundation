@@ -40,20 +40,20 @@
             border-radius: 20px;
             padding: 40px 30px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.02);
-            border: 1px solid rgba(22, 166, 232, 0.08);
+            border: 1px solid rgba(232, 99, 56, 0.08);
             text-align: center;
             transition: all 0.4s ease;
             height: 100%;
         }
         .impact-counter-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 45px rgba(22, 166, 232, 0.08);
-            border-color: rgba(22, 166, 232, 0.2);
+            box-shadow: 0 15px 45px rgba(232, 99, 56, 0.08);
+            border-color: rgba(232, 99, 56, 0.2);
         }
         .impact-number {
             font-size: 48px;
             font-weight: 800;
-            color: #16A6E8;
+            color: #e86338;
             margin-bottom: 10px;
             line-height: 1;
         }
@@ -82,11 +82,11 @@
             box-shadow: 0 5px 25px rgba(0,0,0,0.01);
         }
         .metric-table th {
-            background: #F5F7F8;
+            background: #fdfaf6;
             color: #1e1e1e;
             font-weight: 700;
             padding: 20px 24px;
-            border-bottom: 2px solid rgba(22, 166, 232, 0.1);
+            border-bottom: 2px solid rgba(232, 99, 56, 0.1);
             text-transform: uppercase;
             font-size: 13px;
             letter-spacing: 1px;
@@ -100,7 +100,7 @@
             border-bottom: none;
         }
         .metric-table tr:hover td {
-            background: rgba(22, 166, 232, 0.01);
+            background: rgba(232, 99, 56, 0.01);
         }
         .status-before {
             background: #ffebeb;
@@ -133,8 +133,8 @@
         }
         .story-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 15px 40px rgba(22, 166, 232, 0.06);
-            border-color: rgba(22, 166, 232, 0.15);
+            box-shadow: 0 15px 40px rgba(232, 99, 56, 0.06);
+            border-color: rgba(232, 99, 56, 0.15);
         }
         .story-img {
             height: 250px;
@@ -145,8 +145,8 @@
             padding: 30px;
         }
         .story-badge {
-            background: rgba(22, 166, 232, 0.1);
-            color: #16A6E8;
+            background: rgba(232, 99, 56, 0.1);
+            color: #e86338;
             padding: 4px 12px;
             border-radius: 50px;
             font-size: 12px;
@@ -156,7 +156,7 @@
             display: inline-block;
         }
         .testimonial-card-v2 {
-            background: #F5F7F8;
+            background: #fdfaf6;
             border-radius: 20px;
             padding: 40px;
             border: 1px solid rgba(0,0,0,0.03);
@@ -169,7 +169,7 @@
             position: absolute;
             top: 30px;
             right: 40px;
-            color: rgba(22, 166, 232, 0.1);
+            color: rgba(232, 99, 56, 0.1);
             font-size: 60px;
             line-height: 1;
         }
@@ -274,7 +274,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-title" style="margin-bottom: 60px;">
-                        <h3 style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Grassroots Progress Reports</h3>
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Grassroots Progress Reports</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Verified Impact Indicators</h2>
                         <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Providing detailed, traceable field outputs mapping direct community outreach across our primary intervention categories in Maharashtra.</p>
                     </div>
@@ -340,25 +340,25 @@
                                     <td><strong>School attendance during menstruation</strong></td>
                                     <td><span class="status-before">25% Absenteeism</span></td>
                                     <td><span class="status-after">Under 2% Absences</span></td>
-                                    <td style="text-align: center; color: #16A6E8;"><i class="fa-solid fa-circle-check"></i></td>
+                                    <td style="text-align: center; color: #e86338;"><i class="fa-solid fa-circle-check"></i></td>
                                 </tr>
                                 <tr>
                                     <td><strong>Sanitary access & disposal in rural schools</strong></td>
                                     <td><span class="status-before">Zero incinerator grids</span></td>
                                     <td><span class="status-after">100% active incinerator grids</span></td>
-                                    <td style="text-align: center; color: #16A6E8;"><i class="fa-solid fa-circle-check"></i></td>
+                                    <td style="text-align: center; color: #e86338;"><i class="fa-solid fa-circle-check"></i></td>
                                 </tr>
                                 <tr>
                                     <td><strong>Daily nutrition standards for special children</strong></td>
                                     <td><span class="status-before">Deficient daily protein</span></td>
                                     <td><span class="status-after">Optimal medical growth curves</span></td>
-                                    <td style="text-align: center; color: #16A6E8;"><i class="fa-solid fa-circle-check"></i></td>
+                                    <td style="text-align: center; color: #e86338;"><i class="fa-solid fa-circle-check"></i></td>
                                 </tr>
                                 <tr>
                                     <td><strong>Ecological bamboo survival indices</strong></td>
                                     <td><span class="status-before">Under 40% survival rate</span></td>
                                     <td><span class="status-after">92% Geo-tagged survival rate</span></td>
-                                    <td style="text-align: center; color: #16A6E8;"><i class="fa-solid fa-circle-check"></i></td>
+                                    <td style="text-align: center; color: #e86338;"><i class="fa-solid fa-circle-check"></i></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -371,12 +371,12 @@
     <!-- Audited Metrics Dashboard End -->
 
     <!-- Beneficiary Stories Section Start -->
-    <div class="beneficiary-stories-section" style="padding: 100px 0; background: #F5F7F8;">
+    <div class="beneficiary-stories-section" style="padding: 100px 0; background: #fdfaf6;">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12">
                     <div class="section-title" style="margin-bottom: 60px;">
-                        <h3 style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Real Stories, Real Lives</h3>
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Real Stories, Real Lives</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Beneficiary Case Studies</h2>
                         <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Discover how community-focused interventions have transformed raw conditions into environments of support and growth.</p>
                     </div>
@@ -418,7 +418,7 @@
             <div class="row text-center">
                 <div class="col-lg-12">
                     <div class="section-title" style="margin-bottom: 60px;">
-                        <h3 style="color: #16A6E8; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Field Reviews</h3>
+                        <h3 style="color: #e86338; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;">Field Reviews</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Community Endorsements</h2>
                         <p style="max-width: 700px; margin: 20px auto 0 auto; color: #5a5a5a;">Read direct reviews and testimonials from local governance figures and health specialists on our work.</p>
                     </div>
@@ -431,7 +431,7 @@
                     <div class="testimonial-card-v2">
                         <p style="font-size: 16px; color: #5a5a5a; line-height: 1.8; font-style: italic; margin-bottom: 25px;">"Aanav Seva Foundation stands out as a highly execution-oriented and trusted grassroots partner in Khed Taluka. Their coordination with local gram panchayats, school administrations, and medical professionals is exceptional. Their field workers make sure every sanitary napkin is accounted for, and every incinerator is functioning."</p>
                         <h4 style="font-size: 18px; font-weight: 700; color: #1e1e1e; margin-bottom: 5px;">Smt. Savita Patil</h4>
-                        <p style="color: #16A6E8; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0;">Gram Panchayat Sarpanch, Pune District</p>
+                        <p style="color: #e86338; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0;">Gram Panchayat Sarpanch, Pune District</p>
                     </div>
                 </div>
 
@@ -440,7 +440,7 @@
                     <div class="testimonial-card-v2">
                         <p style="font-size: 16px; color: #5a5a5a; line-height: 1.8; font-style: italic; margin-bottom: 25px;">"The clinical benefits of the Aditi camps and school workshops are directly visible in my medical data. In villages where Aanav Seva Foundation runs menstrual awareness programs, there is a massive 80% drop in adolescent gynecological infections. Their insistence on quality and clean water awareness is highly commendable."</p>
                         <h4 style="font-size: 18px; font-weight: 700; color: #1e1e1e; margin-bottom: 5px;">Dr. Manoj Shah</h4>
-                        <p style="color: #16A6E8; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0;">Community Medical Health Officer</p>
+                        <p style="color: #e86338; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0;">Community Medical Health Officer</p>
                     </div>
                 </div>
             </div>
@@ -449,13 +449,13 @@
     <!-- Community Testimonials Section End -->
 
     <!-- Call to Action Section Start -->
-    <div class="impact-cta-section" style="padding: 100px 0; background: #16A6E8; color: #ffffff; text-align: center;">
+    <div class="impact-cta-section" style="padding: 100px 0; background: #e86338; color: #ffffff; text-align: center;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 wow fadeInUp">
                     <h2 style="font-size: 38px; font-weight: 800; color: #ffffff; margin-bottom: 20px;">Support Our Grassroots Actions</h2>
                     <p style="font-size: 18px; color: rgba(255,255,255,0.9); line-height: 1.8; margin-bottom: 35px; max-width: 650px; margin-left: auto; margin-right: auto;">Work with us to multiply social value, scale active medical or nutritional programs, and deliver verified changes directly to those who need it most.</p>
-                    <a href="contact.html" class="btn-default" style="background: #ffffff; color: #16A6E8; border: none;">request audited impact papers</a>
+                    <a href="contact.html" class="btn-default" style="background: #ffffff; color: #e86338; border: none;">request audited impact papers</a>
                 </div>
             </div>
         </div>

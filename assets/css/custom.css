@@ -520,6 +520,35 @@ header.main-header .header-sticky.active {
 .navbar-brand {
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* On sticky active header, make the logo compact */
+header.main-header .header-sticky.active .navbar-brand img {
+    height: 40px;
+}
+
+/* Subtle upscale hover micro-animation */
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+/* Responsive compact sizing on tablet & mobile */
+@media (max-width: 991px) {
+    .navbar-brand img {
+        height: 38px;
+    }
+    header.main-header .header-sticky.active .navbar-brand img {
+        height: 34px;
+    }
 }
 
 .main-menu .nav-menu-wrapper {
@@ -2601,8 +2630,21 @@ header.main-header .header-sticky.active {
 }
 
 .footer-logo img {
-    width: 100%;
-    max-width: 161px;
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Subtle upscale hover micro-animation for footer logo */
+.footer-logo:hover img {
+    transform: scale(1.05);
+}
+
+@media (max-width: 991px) {
+    .footer-logo img {
+        height: 60px;
+    }
 }
 
 .footer-contact-detail {

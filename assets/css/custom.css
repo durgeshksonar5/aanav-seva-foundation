@@ -667,15 +667,15 @@ header.main-header .header-sticky.active .navbar-brand img {
 .contact-now-box {
     display: flex;
     align-items: center;
-    background-color: rgba(22, 166, 232, 0.08);
-    border: 1px solid rgba(22, 166, 232, 0.2);
+    background-color: rgba(22, 166, 232, 0.35);
+    border: 1px solid rgba(22, 166, 232, 0.5);
     border-radius: 20px;
     padding: 6px 18px;
     transition: all 0.3s ease-in-out;
 }
 
 .contact-now-box:hover {
-    background-color: rgba(22, 166, 232, 0.15);
+    background-color: rgba(22, 166, 232, 0.5);
     border-color: var(--primary-blue);
 }
 

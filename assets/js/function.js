@@ -352,7 +352,7 @@
                 layoutMode: "masonry",
                 masonry: {
                     // use outer width of grid-sizer for columnWidth
-                    columnWidth: 1,
+                    columnWidth: ".gallery-item-box",
                 }
             });
 

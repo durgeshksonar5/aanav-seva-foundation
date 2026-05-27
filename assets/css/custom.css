@@ -527,7 +527,12 @@ header.main-header .header-sticky.active {
 .navbar-brand img {
     height: 75px;
     width: auto;
+    aspect-ratio: 1 / 1;
     object-fit: contain;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
@@ -662,6 +667,16 @@ header.main-header .header-sticky.active .navbar-brand img {
 .contact-now-box {
     display: flex;
     align-items: center;
+    background-color: rgba(22, 166, 232, 0.08);
+    border: 1px solid rgba(22, 166, 232, 0.2);
+    border-radius: 20px;
+    padding: 6px 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-now-box:hover {
+    background-color: rgba(22, 166, 232, 0.15);
+    border-color: var(--primary-blue);
 }
 
 .contact-now-box .icon-box {

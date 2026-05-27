@@ -525,7 +525,7 @@ header.main-header .header-sticky.active {
 }
 
 .navbar-brand img {
-    height: 50px;
+    height: 75px;
     width: auto;
     object-fit: contain;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -533,7 +533,7 @@ header.main-header .header-sticky.active {
 
 /* On sticky active header, make the logo compact */
 header.main-header .header-sticky.active .navbar-brand img {
-    height: 40px;
+    height: 60px;
 }
 
 /* Subtle upscale hover micro-animation */
@@ -544,10 +544,10 @@ header.main-header .header-sticky.active .navbar-brand img {
 /* Responsive compact sizing on tablet & mobile */
 @media (max-width: 991px) {
     .navbar-brand img {
-        height: 38px;
+        height: 55px;
     }
     header.main-header .header-sticky.active .navbar-brand img {
-        height: 34px;
+        height: 48px;
     }
 }
 
@@ -703,17 +703,16 @@ header.main-header .header-sticky.active .navbar-brand img {
 }
 
 .contact-now-box-content h3 {
-    color: var(--primary-blue);
     font-size: 20px;
 }
 
 .contact-now-box-content h3 a {
-    color: inherit;
+    color: var(--bg-white);
     transition: all 0.3s ease-in-out;
 }
 
 .contact-now-box-content h3 a:hover {
-    color: var(--bg-white);
+    color: var(--primary-blue);
 }
 
 .responsive-menu,
@@ -4846,12 +4845,14 @@ header.main-header .header-sticky.active .navbar-brand img {
 }
 
 .contact-info-content p a {
-    color: inherit;
+    color: var(--dark-blue);
+    text-decoration: underline;
+    font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
 
 .contact-info-content p a:hover {
-    color: var(--text-dark);
+    color: var(--primary-blue);
 }
 
 .contact-form-section .container-fluid {

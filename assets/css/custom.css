@@ -6636,3 +6636,280 @@ header.main-header .header-sticky.active .navbar-brand img {
         width: 16px;
     }
 }
+
+/* ========================================================================================
+ * CUSTOM COMPLIANCE, ACCESSIBILITY, AND REDESIGN OVERRIDES (Aanav Seva Foundation)
+ * ======================================================================================== */
+
+/* WCAG AA Accessibility Contrast Override */
+:root {
+    --text-gray: #3A3A3A; /* Darker gray for readable text against light backgrounds */
+}
+
+/* Body line height adjustment for readability */
+body {
+    line-height: 1.6em;
+}
+
+/* Banners text overlay dark styling for maximum contrast */
+.hero-image-overlay, .banner-image-overlay {
+    position: relative;
+}
+.hero-image-overlay::before, .banner-image-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.45); /* 45% black overlay to ensure white text is readable */
+    z-index: 1;
+}
+.hero-image-overlay > *, .banner-image-overlay > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Sticky CTAs for Desktop */
+.sticky-partner-cta {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: right bottom;
+    z-index: 999;
+    background: var(--primary-green);
+    color: #ffffff !important;
+    font-weight: 700;
+    font-family: var(--accent-font);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    padding: 14px 26px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: -1px;
+}
+.sticky-partner-cta:hover {
+    background: var(--dark-green);
+    padding-bottom: 20px;
+}
+
+/* Mobile Sticky bottom CTA container */
+.mobile-sticky-ctas {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .sticky-partner-cta {
+        display: none; /* Hide single vertical sticky on mobile */
+    }
+    .mobile-sticky-ctas {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.15);
+    }
+    .mobile-sticky-cta-btn {
+        flex: 1;
+        text-align: center;
+        padding: 15px 10px;
+        font-weight: 700;
+        font-family: var(--accent-font);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 12px;
+        color: #ffffff !important;
+        text-decoration: none;
+    }
+    .mobile-sticky-cta-btn.partner-btn {
+        background: var(--primary-green);
+    }
+    .mobile-sticky-cta-btn.donate-btn {
+        background: var(--primary-blue);
+    }
+    body {
+        padding-bottom: 50px; /* Leave room so sticky bar doesn't cover footer content */
+    }
+}
+
+/* CSR HUB Downloadable Document Cards */
+.csr-document-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+    border: 1px solid rgba(22, 166, 232, 0.08);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.csr-document-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--primary-blue);
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.csr-document-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(22, 166, 232, 0.08);
+    border-color: rgba(22, 166, 232, 0.2);
+}
+.csr-document-card:hover::before {
+    opacity: 1;
+}
+.csr-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background: rgba(22, 166, 232, 0.06);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    transition: all 0.3s ease;
+}
+.csr-document-card:hover .csr-icon-wrapper {
+    background: var(--primary-blue);
+}
+.csr-document-card:hover .csr-icon-wrapper i {
+    color: #ffffff !important;
+}
+.csr-card-btn-group {
+    margin-top: auto;
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+}
+.csr-view-btn, .csr-download-btn {
+    flex: 1;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.csr-view-btn {
+    border: 1px solid var(--border-color);
+    color: var(--text-dark);
+    background: transparent;
+}
+.csr-view-btn:hover {
+    background: var(--bg-light);
+    color: var(--primary-blue);
+}
+.csr-download-btn {
+    background: var(--primary-blue);
+    color: #ffffff !important;
+    border: none;
+}
+.csr-download-btn:hover {
+    background: var(--dark-blue);
+}
+
+/* Donate Page Custom Elements */
+.donate-options-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+@media (max-width: 767px) {
+    .donate-options-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.donate-option-card {
+    background: #ffffff;
+    border: 1.5px solid var(--border-color);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--text-dark);
+    transition: all 0.3s ease;
+}
+.donate-option-card:hover, .donate-option-card.selected {
+    border-color: var(--primary-blue);
+    background: var(--bg-soft-blue);
+    color: var(--primary-blue);
+}
+.bank-details-card {
+    background: var(--bg-light);
+    border-radius: 16px;
+    padding: 25px;
+    border: 1px solid rgba(0,0,0,0.04);
+}
+.bank-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgba(0,0,0,0.08);
+}
+.bank-row:last-child {
+    border-bottom: none;
+}
+.bank-label {
+    font-weight: 600;
+    color: var(--text-gray);
+}
+.bank-value {
+    font-weight: 700;
+    color: var(--text-dark);
+    font-family: monospace;
+}
+.tax-exemption-badge {
+    display: inline-flex;
+    align-items: center;
+    background: var(--bg-soft-green);
+    color: var(--dark-green);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 13px;
+    border: 1px solid rgba(147, 207, 62, 0.2);
+}
+
+/* Mobile Whitespace, Layout, and Padding Fixes */
+@media (max-width: 991px) {
+    .section-row {
+        margin-bottom: 40px;
+    }
+    .about-us, .our-services, .what-we-do, .our-causes, .why-choose-us, .our-features, .how-it-work, .our-testimonials, .page-services, .legal-credentials-section, .board-governance-section, .compliance-documents-section {
+        padding: 50px 0 !important;
+    }
+    .hero {
+        padding: 120px 0 60px 0 !important;
+    }
+    .hero-content h1 {
+        font-size: 38px !important;
+        line-height: 1.2em;
+    }
+    .hero-content p {
+        font-size: 15px !important;
+        line-height: 1.6em;
+    }
+    .section-title h2 {
+        font-size: 30px !important;
+    }
+}

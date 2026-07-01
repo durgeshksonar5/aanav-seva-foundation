@@ -33,6 +33,49 @@
     <link rel="stylesheet" href="../assets/css/mousecursor.css">
     <!-- Main Custom Css -->
     <link href="../assets/css/custom.css" rel="stylesheet" media="screen">
+    <style>
+        /* Custom styles for Intervention Section */
+        .intervention-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .intervention-card {
+            background: #ffffff;
+            border: 1px solid rgba(40, 167, 69, 0.12);
+            border-radius: 10px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.015);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        .intervention-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(40, 167, 69, 0.08);
+            border-color: rgba(40, 167, 69, 0.3);
+        }
+        .intervention-icon-wrapper {
+            background-color: rgba(40, 167, 69, 0.1);
+            color: #28a745;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+        .intervention-text {
+            font-size: 14px;
+            font-weight: 500;
+            color: #3A3A3A;
+            line-height: 1.4;
+        }
+    </style>
 </head>
 
 <body>
@@ -87,7 +130,7 @@
     <!-- Header End -->
 
     <!-- Page Header Start -->
-    <div class="page-header parallaxie" style="background-image: url('../assets/images/hero/poshan-aahar-hero.png');">
+    <div class="page-header parallaxie" style="background-image: url('../assets/hero_index_new.png');">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -159,7 +202,7 @@
                         <!-- Service Feature Image Start -->
                         <div class="service-feature-image">
                             <figure class="image-anime reveal">
-                                <img src="../assets/images/services/service_entry_image_2_poshan.png" alt="Poshan Aahar Program">
+                                <img src="../assets/poshan-aahar.jpeg" alt="Poshan Aahar Program">
                             </figure>
                         </div>
                         <!-- Service Feature Image End -->
@@ -180,13 +223,33 @@
                                 <h3 style="font-size: 18px; font-weight: 700; color: #28a745; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
                                     <i class="fa-solid fa-circle-check"></i> Our Intervention
                                 </h3>
-                                <p style="font-size: 15px; line-height: 1.8; color: #3A3A3A; margin-bottom: 15px;">Aanav Seva Foundation implements the **Poshan Aahar Program**—delivering fresh, hot, and hygienic meals directly to special-needs children and municipal schools daily. The meals are curated by child nutrition experts to supply correct daily portions of vitamins, proteins, and essential nutrients.</p>
-                                <ul style="list-style: none; padding-left: 0; margin-bottom: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px;">
-                                    <li style="position: relative; padding-left: 20px; font-size: 14px; color: #3A3A3A;"><i class="fa-solid fa-check" style="position: absolute; left: 0; top: 3px; color: #28a745;"></i> Daily delivery of hot, balanced tiffins</li>
-                                    <li style="position: relative; padding-left: 20px; font-size: 14px; color: #3A3A3A;"><i class="fa-solid fa-check" style="position: absolute; left: 0; top: 3px; color: #28a745;"></i> Menus designed by child nutrition experts</li>
-                                    <li style="position: relative; padding-left: 20px; font-size: 14px; color: #3A3A3A;"><i class="fa-solid fa-check" style="position: absolute; left: 0; top: 3px; color: #28a745;"></i> Central kitchen adhering to high hygiene</li>
-                                    <li style="position: relative; padding-left: 20px; font-size: 14px; color: #3A3A3A;"><i class="fa-solid fa-check" style="position: absolute; left: 0; top: 3px; color: #28a745;"></i> Active tracking of child growth metrics</li>
-                                </ul>
+                                <p style="font-size: 15px; line-height: 1.8; color: #3A3A3A; margin-bottom: 15px;">Aanav Seva Foundation implements the <strong style="color: #28a745; font-weight: 700;">Poshan Aahar Program</strong>—delivering fresh, hot, and hygienic meals directly to special-needs children and municipal schools daily. The meals are curated by child nutrition experts to supply correct daily portions of vitamins, proteins, and essential nutrients.</p>
+                                <div class="intervention-grid">
+                                    <div class="intervention-card">
+                                        <div class="intervention-icon-wrapper">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <span class="intervention-text">Daily delivery of hot, balanced tiffins</span>
+                                    </div>
+                                    <div class="intervention-card">
+                                        <div class="intervention-icon-wrapper">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <span class="intervention-text">Menus designed by child nutrition experts</span>
+                                    </div>
+                                    <div class="intervention-card">
+                                        <div class="intervention-icon-wrapper">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <span class="intervention-text">Central kitchen adhering to high hygiene</span>
+                                    </div>
+                                    <div class="intervention-card">
+                                        <div class="intervention-icon-wrapper">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <span class="intervention-text">Active tracking of child growth metrics</span>
+                                    </div>
+                                </div>
                             </div>
 
                             <!-- 3. Impact Achieved -->
@@ -217,10 +280,10 @@
                                 </h3>
                                 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
                                     <figure class="image-anime" style="border-radius: 12px; overflow: hidden; margin-bottom: 0;">
-                                        <img src="../assets/images/services/service_entry_image_1_poshan.png" alt="Nutritious Kitchen Preparation" loading="lazy" style="width: 100%; height: auto; display: block;">
+                                        <img src="../assets/poshan-aahar.jpeg" alt="Nutritious Kitchen Preparation" loading="lazy" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block;">
                                     </figure>
                                     <figure class="image-anime" style="border-radius: 12px; overflow: hidden; margin-bottom: 0;">
-                                        <img src="../assets/images/services/service_entry_image_2_poshan.png" alt="Daily Hot Tiffin Delivery" loading="lazy" style="width: 100%; height: auto; display: block;">
+                                        <img src="../assets/poshan-poster.jpeg" alt="Daily Hot Tiffin Delivery" loading="lazy" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block;">
                                     </figure>
                                 </div>
                             </div>

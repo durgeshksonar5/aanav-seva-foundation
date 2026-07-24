@@ -301,24 +301,37 @@
     });
 
     function submitForm() {
-        /* Ajax call to submit form */
+        var $btn = $contactform.find('button[type="submit"]');
+        var $btnSpan = $btn.find('span');
+        var originalText = $btnSpan.text();
+        
+        $btn.prop('disabled', true);
+        $btnSpan.text('Sending...');
+
+        /* Ajax call to submit form to Leads Management API */
         $.ajax({
             type: "POST",
-            url: "form-process.php",
+            url: "https://leadsmanagment.hindustandigitalservices.com/api/forms/submit/da20af92-f99f-42c5-94e3-57c205eb9475",
             data: $contactform.serialize(),
-            success: function(text) {
-                if (text === "success") {
-                    formSuccess();
-                } else {
-                    submitMSG(false, text);
-                }
+            success: function(response) {
+                formSuccess();
+                $btnSpan.text('Message Sent!');
+                setTimeout(function() {
+                    $btn.prop('disabled', false);
+                    $btnSpan.text(originalText);
+                }, 3000);
+            },
+            error: function(xhr, status, error) {
+                submitMSG(false, "An error occurred. Please try again.");
+                $btn.prop('disabled', false);
+                $btnSpan.text(originalText);
             }
         });
     }
 
     function formSuccess() {
         $contactform[0].reset();
-        submitMSG(true, "Message Sent Successfully!")
+        submitMSG(true, "Message Sent Successfully!");
     }
 
     function submitMSG(valid, msg) {

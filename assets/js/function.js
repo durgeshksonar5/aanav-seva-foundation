@@ -162,7 +162,7 @@
         });
     }
 
-    /* Text Effect Animation */
+    /* Text Effect Animation - Disabled to ensure content loads instantly for scanning
     if ($(window).width() > 768) {
         if ($('.text-anime-style-1').length) {
             let staggerAmount = 0.05,
@@ -253,6 +253,7 @@
             });
         }
     }
+    */
 
     /* Parallaxie js */
     /* var $parallaxie = $('.parallaxie');

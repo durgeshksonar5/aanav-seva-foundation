@@ -418,8 +418,8 @@ body {
 .section-title h3 {
     position: relative;
     display: inline-block;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -5974,7 +5974,8 @@ header.main-header .header-sticky.active .navbar-brand img {
         margin-bottom: 30px;
     }
     .section-title h3 {
-        font-size: 14px;
+        font-size: 15px;
+        font-weight: 700;
         padding-left: 25px;
         margin-bottom: 10px;
     }
@@ -6912,4 +6913,358 @@ body {
     .section-title h2 {
         font-size: 30px !important;
     }
-}
+}
+
+/* Impact Dashboard Grid (Homepage 3x3 layout) */
+.impact-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+@media (max-width: 991px) {
+    .impact-dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+@media (max-width: 575px) {
+    .impact-dashboard-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+.dashboard-counter-card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 30px 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: relative;
+    overflow: hidden;
+}
+.dashboard-counter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(22, 166, 232, 0.08);
+    border-color: rgba(22, 166, 232, 0.15);
+}
+.dashboard-counter-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    background: var(--gradient-primary);
+    transform: translateX(-50%);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.dashboard-counter-card:hover::before {
+    width: 100%;
+}
+.dashboard-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background: rgba(22, 166, 232, 0.06);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.dashboard-counter-card:hover .dashboard-icon-wrapper {
+    background: rgba(22, 166, 232, 0.15);
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(22, 166, 232, 0.25);
+}
+.dashboard-icon-wrapper i {
+    color: var(--primary-blue);
+    font-size: 24px;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: inline-block;
+}
+.dashboard-counter-card:hover .dashboard-icon-wrapper i {
+    transform: translateY(-2px) rotate(15deg);
+}
+.dashboard-counter-card h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+    font-family: var(--accent-font);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.dashboard-counter-card:hover h2 {
+    color: var(--primary-blue);
+    transform: scale(1.05);
+}
+.dashboard-counter-card p {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-gray);
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+.dashboard-counter-card:hover p {
+    color: var(--text-dark);
+}
+
+/* Trusted By Partners Marquee */
+.partners-marquee-section {
+    padding: 40px 0;
+    background: var(--bg-light);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    overflow: hidden;
+}
+.partners-logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.partner-logo-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+    background: #ffffff;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.01);
+}
+.partner-logo-item:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+}
+.partner-logo-item img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+.partner-logo-text {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text-dark);
+    font-family: var(--accent-font);
+    margin-left: 8px;
+}
+
+/* Project Lifecycle Timeline (CSR Page Flowchart) */
+.lifecycle-timeline {
+    position: relative;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+.lifecycle-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+@media (max-width: 991px) {
+    .lifecycle-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 575px) {
+    .lifecycle-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.lifecycle-step-card {
+    background: #ffffff;
+    border: 1.5px solid var(--border-color);
+    border-radius: 16px;
+    padding: 25px;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.01);
+    transition: all 0.3s ease;
+}
+.lifecycle-step-card:hover {
+    border-color: var(--primary-blue);
+    box-shadow: 0 12px 30px rgba(22, 166, 232, 0.06);
+    transform: translateY(-3px);
+}
+.step-number {
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    width: 40px;
+    height: 40px;
+    background: var(--gradient-primary);
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(22, 166, 232, 0.3);
+}
+.lifecycle-step-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 10px 0 12px 0;
+}
+.lifecycle-step-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-gray);
+    margin-bottom: 0;
+}
+
+/* Capabilities Card Grid (Capabilities Page) */
+.capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+@media (max-width: 991px) {
+    .capabilities-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 767px) {
+    .capabilities-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.capability-item-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 35px 25px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+}
+.capability-item-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(22, 166, 232, 0.2);
+    box-shadow: 0 15px 35px rgba(22, 166, 232, 0.08);
+}
+.capability-icon {
+    width: 65px;
+    height: 65px;
+    background: rgba(147, 207, 62, 0.08);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+.capability-item-card:hover .capability-icon {
+    background: var(--primary-green);
+    transform: rotate(5deg) scale(1.05);
+}
+.capability-icon i {
+    color: var(--dark-green);
+    font-size: 26px;
+    transition: color 0.3s ease;
+}
+.capability-item-card:hover .capability-icon i {
+    color: #ffffff;
+}
+.capability-item-card h3 {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+    font-family: var(--accent-font);
+}
+.capability-item-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-gray);
+    margin-bottom: 0;
+}
+
+/* Director Profile Cards (Governance Page) */
+.director-profile-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.01);
+    transition: all 0.3s ease;
+}
+.director-profile-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-blue);
+    box-shadow: 0 12px 35px rgba(22,166,232,0.06);
+}
+.director-avatar-area {
+    background: var(--bg-soft-blue);
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+.director-avatar-circle {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(22,166,232,0.1);
+}
+.director-avatar-circle i {
+    font-size: 40px;
+    color: var(--primary-blue);
+}
+.director-details {
+    padding: 30px 25px;
+}
+.director-details h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 5px;
+}
+.director-role-tag {
+    color: var(--primary-blue);
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.director-details p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-gray);
+    margin-bottom: 0;
+}
+
+/* Button UI Spacing Fixes */
+.header-cta-btn-wrapper .btn-default {
+    padding: 12px 42px 12px 20px !important;
+    font-size: 14px !important;
+}
+
+.header-cta-btn-wrapper .btn-default::before {
+    transform: translate(-16px, -50%) !important;
+}
+
+.header-cta-btn-wrapper .btn-default:hover::before {
+    transform: translate(-13px, -50%) !important;
+}
+
+.compliance-snapshot-section .btn-default {
+    padding: 15px 54px 15px 24px !important;
+}
+
